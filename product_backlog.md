@@ -82,3 +82,18 @@ _As a user, I want to delete existing habits so that I can keep my habits up to 
 ### 3. Personalize a habit with color
 **Title:**
 _As a user, I want to assign a specific color to each habit to make it personal to me._
+
+
+# User stories for the reports page
+
+### 1. View weekly reports
+**Title:**
+_As a user, I want to see a report of my weekly habit progress so that I can understand how well I am maintaining my habits._
+
+### 2. Visualize completed habits
+**Title:**
+_As a user, I want to see a chart of my completed habits for each day of the week so that I can quickly identify trends in my progress._
+
+### 3. View all habits
+**Title:**
+_As a user, I want to see both completed and incomplete habits in my report so that I have a comprehensive view of my habit tracking performance._
