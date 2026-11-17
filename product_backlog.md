@@ -1,4 +1,6 @@
-# User stories for the login/registration page
+# User stories
+
+## Login/Registration
 
 ### 1. Account registration
 **Title:**
@@ -16,7 +18,7 @@ _As a user, I want to receive a message if I enter the wrong username or passwor
 - The user is able to register; however, due to security constraints, the credentials are not saved in the browser cache but are removed once the user logs out. Therefore, the user is unable to log in with their own credentials. The only way to log in is with the default username and password.
 
 
-# User stories for the homepage
+## Homepage
 
 ### 1. View welcome message
 **Title:**
@@ -31,7 +33,7 @@ _As a user, I want to see my daily progress for each habit on the homepage, so t
 _As a user, I want to see a section for completed habits on the homepage, so that I can track what I have already achieved._
 
 
-# User stories for the menu
+## Menu
 
 ### 1. Access menu options
 **Title:**
@@ -50,7 +52,7 @@ _As a user, I want to access the habits page from the menu, so that I can config
 _As a user, I want to sign out of my account using an option in the menu, so that I can securely log out when I'm finished using the app._
 
 
-# User stories for the profile page
+## Profile
 
 ### 1. View personal information
 **Title:**
@@ -69,7 +71,7 @@ _As a user, I want the changes I make to my profile to be saved, so that my upda
 _As a user, I want my updated name to be displayed in the app's header after I change it in the profile, so that my changes are immediately visible._
 
 
-# User stories for the habits page
+## Habits
 
 ### 1. Add a new habit
 **Title:**
@@ -84,7 +86,7 @@ _As a user, I want to delete existing habits so that I can keep my habits up to 
 _As a user, I want to assign a specific color to each habit to make it personal to me._
 
 
-# User stories for the reports page
+## Reports
 
 ### 1. View weekly reports
 **Title:**
@@ -99,7 +101,7 @@ _As a user, I want to see a chart of my completed habits for each day of the wee
 _As a user, I want to see both completed and incomplete habits in my report so that I have a comprehensive view of my habit tracking performance._
 
 
-# User stories for the notifications page
+## Notifications
 
 ### 1. Enable/disable notifications
 **Title:**
