@@ -55,6 +55,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
       List<String> countries = await fetchCountries();
       setState(() {
         _countries = countries;
+        if (!countries.contains(_country) && countries.isNotEmpty) {
+          _country = countries.first;
+        }
       });
     } catch (e) {
       // Handle error

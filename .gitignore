@@ -43,3 +43,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# API keys, passed to the app with --dart-define-from-file=api_keys.json
+api_keys.json
