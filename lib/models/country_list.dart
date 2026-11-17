@@ -27,6 +27,11 @@ import 'package:http/http.dart' as http;
 // Open https://restcountries.com/api-keys, open your key, and add localhost to its CORS allowed origins.
 const String _apiKey = String.fromEnvironment('RESTCOUNTRIES_API_KEY');
 
+// A DropdownButton fails unless its value is one of its items, so fall back to the first country.
+String countryInList(String country, List<String> countries) {
+  return countries.contains(country) || countries.isEmpty ? country : countries.first;
+}
+
 Future<List<String>> fetchCountries() async {
   // The key goes in the URL rather than an Authorization header, which a browser would block.
   final response = await http.get(Uri.parse(
