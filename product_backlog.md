@@ -67,3 +67,18 @@ _As a user, I want the changes I make to my profile to be saved, so that my upda
 ### 4. Update name in header
 **Title:**
 _As a user, I want my updated name to be displayed in the app's header after I change it in the profile, so that my changes are immediately visible._
+
+
+# User stories for the habits page
+
+### 1. Add a new habit
+**Title:**
+_As a user, I want to add new habits on the details configuration page so that I can manage and update my habits as needed._
+
+### 2. Delete a habit
+**Title:**
+_As a user, I want to delete existing habits so that I can keep my habits up to date._
+
+### 3. Personalize a habit with color
+**Title:**
+_As a user, I want to assign a specific color to each habit to make it personal to me._
